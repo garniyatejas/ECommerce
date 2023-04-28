@@ -1,4 +1,4 @@
-import {Router, Request, Response, raw} from 'express';
+import {Router, Request, Response} from 'express';
 import {tokenVerifier} from "../../middlewares/tokenVerifier";
 import {validateForm} from "../../middlewares/validateForm";
 import * as userController from "../../controllers/userController";
